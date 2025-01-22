@@ -29,8 +29,7 @@ const NavButton = ({
             <Link className='
                       cursor-pointer
                       text-foreground rounded-full flex items-center justify-center
-                      bg-background/20 border border-accent/80 border-solid backdrop-blur[6px]
-                      shadow-glass-inset hover:shadow-glass-sm
+                      custom-bg
             '
                   href={link}
                   aria-label={label}
