@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import {clsx} from "clsx";
+import StarsBackground from "@components/StarsBackground";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         clsx(inter.variable, "bg-background text-foreground")
       }>
       {children}
+       <StarsBackground />
       </body>
     </html>
   );

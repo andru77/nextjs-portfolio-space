@@ -2,8 +2,8 @@ import Image from "next/image";
 
 import spaceBackground from "@public/background/space-backhground.png";
 import ModelRenderer from "@components/ModelRenderer";
-import {WizardModel} from "@components/models/Wizard";
 import {LittleAstronaut} from "@components/models/LittleAstronaut";
+import Navigation from "@components/Navigation";
 
 export default function Home() {
   return (
@@ -11,13 +11,14 @@ export default function Home() {
       <Image src={spaceBackground}
              alt={'space background image'}
              fill
-             className="w-full h-full object-cover object-center opacity-25"
+             className="w-full h-full object-cover object-center opacity-25 -z-10"
       />
        <div className="w-full h-screen">
-           <ModelRenderer className="w-full h-full">
+           <Navigation />
+
+           <ModelRenderer>
                {/* <Model /> */}
                <LittleAstronaut />
-               {/*<WizardModel />*/}
            </ModelRenderer>
        </div>
     </main>

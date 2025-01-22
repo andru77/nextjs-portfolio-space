@@ -15,6 +15,23 @@ module.exports = {
         foreground: 'rgb(var(--foreground))',
         muted: 'rgb(var(--muted))',
         accent: 'rgb(var(--accent))',
+      },
+      backgroundImage:{
+        'firefly-radial': "radial-gradient(50% 50% at 50% 50%, rgba(177, 222, 227, 0.5) 0%, rgba(217,217,217, 0) 100%)"
+      },
+      boxShadow: {
+        'glass-inset': 'inset 0 17px 5px -9px rgb(3 ,207 ,252, 0.2)',
+        'glass-sm': '5px 5px 20px 0 rgb(3 ,207 ,252, 0.2)',
+      },
+      keyframes: {
+        'spin-reverse': {
+          '0%': {transform: 'rotate(0deg)'},
+          '100%': {transform: 'rotate(-360deg)'},
+        }
+      },
+      animation: {
+        'spin-slow': 'spin 40s linear infinite',
+        'spin-slow-reverse': 'spin-reverse 40s linear infinite',
       }
     },
   },

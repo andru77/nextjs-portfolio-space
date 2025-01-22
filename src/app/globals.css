@@ -8,9 +8,22 @@
     --background: 27 27 27;
     --foreground: 225 225 225;
     --muted: 115 115 115;
-    --accent: 254 254 91;
+    --accent: 3 207 252;
   }
 }
 
 @layer utilities {
+  .pause {
+    animation-play-state: paused;
+  }
+}
+
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100px, 100px);
+  }
 }

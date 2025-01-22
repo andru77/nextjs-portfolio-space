@@ -10,9 +10,9 @@ const ModelRenderer = ({
                        }) => {
     return (
         <Canvas
-            className={clsx("w-full h-full z-10", className)}
+            className={clsx("w-full h-full -z-10 opacity-100", className)}
         >
-             <Suspense fallBack={null}>
+            <Suspense fallBack={<h3>He is coming...</h3>}>
                  {
                         children
                  }
