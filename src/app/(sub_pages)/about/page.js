@@ -17,7 +17,7 @@ export default function Projects() {
                     <SpaceExploration />
                 </ModelRenderer>
             </div>
-            <div className={'relative w-full h-[250px] flex flex-col items-center justify-center mt-64'}>
+            <div className={'relative w-full h-[250px] flex flex-col items-center justify-center mt-80'}>
                 {/*<div className={'absolute flex flex-col items-center text-center top-[70%] left-[40%] -translate-y-1/2'}>*/}
                     <h1 className={'font-bold text-6xl text-accent'}>Jose Andres Colmenares</h1>
                     <p className={'font-semibold text-2xl '}>Meet the astronaut behind this portfolio</p>

@@ -8,7 +8,7 @@
     --background: 27 27 27;
     --foreground: 225 225 225;
     --muted: 115 115 115;
-    --accent: 3 207 252;
+    --accent: 202 240 248;
   }
 }
 
@@ -18,6 +18,9 @@
   }
   .custom-bg {
     @apply bg-background/20 border border-accent/80 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm;
+  }
+  .custom-input {
+    @apply w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg
   }
 }
 

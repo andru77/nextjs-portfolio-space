@@ -40,14 +40,14 @@ const AboutDetails = () => {
                     </p>
                 </ItemLayout>
                 <ItemLayout className={'col-span-4 p-0'}>
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andru77&show_icons=true&theme=transparent&hide_border=true&text_color=FFFFFF&title_color=03cefc
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andru77&show_icons=true&theme=transparent&hide_border=true&text_color=FFFFFF&title_color=caf0f8
                                "
                          alt="github stats"
                          loading={"lazy"}
                     />
                 </ItemLayout>
                 <ItemLayout className={'col-span-8 p-0'}>
-                    <img src="https://github-readme-stats.vercel.app/api?username=andru77&show_icons=true&theme=transparent&hide_border=true&text_color=FFFFFF&title_color=03cefc
+                    <img src="https://github-readme-stats.vercel.app/api?username=andru77&show_icons=true&theme=transparent&hide_border=true&text_color=FFFFFF&title_color=caf0f8
                                "
                          alt="github stats"
                          loading={"lazy"}
