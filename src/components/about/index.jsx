@@ -12,7 +12,7 @@ const AboutDetails = () => {
                         As a highly skilled Full Stack Developer with over 6+ years of experience, I am deeply passionate about creating innovative and impactful web solutions for a variety of industries. My expertise in designing, developing, and testing web-based applications is backed by a diverse range of technologies, including NextJs, React, Angular, React-native, Capacitor, Ionic, NodeJs, Express, and Strapi.
                     </p>
                     <p className={'text-base lg:text-[18px]'}>
-                        My commitment to excellence is reflected in my ability to seamlessly integrate cutting-edge technologies and develop intuitive, user-friendly interfaces. With a broad background and a strong technical skillset, I am eager to leverage my expertise in software development to drive success for your organization. Whether you're seeking to optimize existing systems or create new, industry-leading solutions, I have the skills and passion to bring your vision to life.
+                        My commitment to excellence is reflected in my ability to seamlessly integrate cutting-edge technologies and develop intuitive, user-friendly interfaces. With a broad background and a strong technical skillset, I am eager to leverage my expertise in software development to drive success for your organization. Whether you&#39;re seeking to optimize existing systems or create new, industry-leading solutions, I have the skills and passion to bring your vision to life.
                     </p>
                 </ItemLayout>
                 <ItemLayout className={'col-span-full md:col-span-6 lg:col-span-4 text-accent'}>
