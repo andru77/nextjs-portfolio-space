@@ -1,23 +1,20 @@
-# Next.js Creative Portfolio: Amazing Portfolio Website with Next.js, Three.js, and Tailwind CSS 🔥
+# Next.js Creative Portfolio: Amazing Portfolio Website with Next.js, Three.js, and Tailwind CSS
 
-This repository contains **starter code** for Next.js Creative Portfolio website built using Next.js and Three.js. <br />
 
 For Demo checkout following link👇: <br />
-[Nextjs Creative Portfolio Website Demo](https://next-js-creative-portfolio-website.vercel.app/) <br />
+[Nextjs Creative Portfolio Website Demo](https://portfolio-git-main-andru77s-projects.vercel.app/) <br />
 
 ## Resources Used in This Project
 
 #### 3D Models
 
-- ["Tim Mckee - Boy Wizard"](https://skfb.ly/6YATu) by [elbertwithane is licensed under Creative Commons Attribution ](http://creativecommons.org/licenses/by/4.0/).
-- ["Stylized wizard hat"](https://skfb.ly/ozxOQ) by [Enkarra is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
-- ["Wizard Staff"](https://skfb.ly/6QYZw) by [Toymancer Studio is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["pace exploration"](https://skfb.ly/JIPA) by [Shapernode is licensed under Creative Commons Attribution ](http://creativecommons.org/licenses/by/4.0/).
+- ["Little Astronaut"](https://skfb.ly/on9NL) by [Rude Randal is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["Rocket"](https://skfb.ly/6UxWR) by [Rocket is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 
 #### AI Images
 
-- Created with the help of [Playground AI](https://playgroundai.com/)
-
-#### Github Stats & Details
+- Created with the help of [OpenArt](https://openart.ai)
 
 #### Development Resources
 
