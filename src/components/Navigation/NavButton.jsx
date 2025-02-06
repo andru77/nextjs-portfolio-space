@@ -3,6 +3,7 @@ import Link from "next/link";
 import {Github, Home, Linkedin, NotebookPen, Palette, Phone, User} from "lucide-react";
 import ResponsiveComponent from "@components/ResponsiveComponent";
 import {clsx} from "clsx";
+import {motion} from "framer-motion";
 
 const iconsObject = {
     'home': <Home strokeWidth={1.5}  className={'w-full h-auto'}/>,
@@ -13,6 +14,13 @@ const iconsObject = {
     'linkedin': <Linkedin strokeWidth={1.5}  className={'w-full h-auto'}/>,
     'resume': <NotebookPen strokeWidth={1.5}  className={'w-full h-auto'}/>
 }
+
+const item = {
+    hidden: {scale: 0},
+    show: {scale: 1}
+}
+
+const NavLink = motion(Link)
 
 const NavButton = ({
     x,
@@ -33,10 +41,11 @@ const NavButton = ({
                                  transform: `translate(${x}, ${y})`,
                              }}
                         >
-                            <Link className=' cursor-pointer
+                            <NavLink className=' cursor-pointer
                                               text-foreground rounded-full flex items-center justify-center
                                               custom-bg'
                                   href={link}
+                                  variants={item}
                                   aria-label={label}
                                   target={newTab ? '_blank' : '_self'}
                                   name={label}
@@ -53,13 +62,14 @@ const NavButton = ({
                                    </span>
                                 </span>
 
-                            </Link>
+                            </NavLink>
                         </div>
                     )  : <>
                         <div className={'w-fit cursor-pointer z-50'}>
-                            <Link className=' cursor-pointer
+                            <NavLink className=' cursor-pointer
                                               text-foreground rounded-full flex items-center justify-center
                                               custom-bg'
+                                  variants={item}
                                   href={link}
                                   aria-label={label}
                                   target={newTab ? '_blank' : '_self'}
@@ -77,7 +87,7 @@ const NavButton = ({
                                         {label}
                                    </span>
                                 </span>
-                            </Link>
+                            </NavLink>
                         </div>
                     </>
                 }
