@@ -62,7 +62,7 @@ export default function Form() {
         <>
             <Toaster richColors={true}/>
             <form onSubmit={handleSubmit(onSubmit)}
-                  className={'max-w-md w-full flex flex-col items-center justify-center space-y-4'}
+                  className={'max-w-xl w-full flex flex-col items-center justify-center space-y-4'}
             >
                 <input type="text"
                        className={'custom-input'}
